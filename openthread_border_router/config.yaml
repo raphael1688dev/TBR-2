@@ -34,11 +34,11 @@ options:
   nat64: false
   network_device: null
 ports:
-  8180/tcp: null
-  8181/tcp: null
+  8280/tcp: null
+  8281/tcp: null
 ports_description:
-  8180/tcp: OpenThread Web port
-  8181/tcp: OpenThread REST API port
+  8280/tcp: OpenThread Web port
+  8281/tcp: OpenThread REST API port
 schema:
   device: str?
   baudrate: list(57600|115200|230400|460800|921600)
