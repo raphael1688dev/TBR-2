@@ -1,5 +1,6 @@
 ---
-version: 2.12.4
+#version: 2.12.4
+version: 2.11.0
 slug: openthread_border_router
 name: OpenThread Border Router(TBR-2)
 description: OpenThread Border Router add-on
