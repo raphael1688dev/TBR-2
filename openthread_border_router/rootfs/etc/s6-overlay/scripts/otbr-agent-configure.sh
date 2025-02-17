@@ -12,4 +12,5 @@ fi
 
 # To avoid asymmetric link quality the TX power from the controller should not
 # exceed that of what other Thread routers devices typically use.
-ot-ctl txpower 6
+#ot-ctl txpower 6
+ot-ctl txpower 20
