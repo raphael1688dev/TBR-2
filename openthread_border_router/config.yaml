@@ -28,7 +28,7 @@ options:
   device: /dev/null
   baudrate: "460800"
   flow_control: true
-  autoflash_firmware: true
+  autoflash_firmware: false
   otbr_log_level: notice
   firewall: false
   nat64: false
