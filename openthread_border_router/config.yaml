@@ -14,13 +14,14 @@ hassio_api: true
 discovery:
   - otbr
 # IPC is only used within the Add-on
-host_ipc: false
+#host_ipc: false
+host_ipc: true
 host_network: true
 host_uts: true
-privileged: true
-#privileged:
-#  - IPC_LOCK
-#  - NET_ADMIN
+#privileged: true
+privileged:
+  - IPC_LOCK
+  - NET_ADMIN
 devices:
   - /dev/net/tun
 image: homeassistant/{arch}-addon-otbr
