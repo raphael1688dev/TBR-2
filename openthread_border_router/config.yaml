@@ -9,7 +9,8 @@ arch:
   - aarch64
   - amd64
 homeassistant: 2023.9.0
-gpio: true
+#gpio: true
+gpio: false
 hassio_api: true
 discovery:
   - otbr
@@ -18,10 +19,10 @@ discovery:
 host_ipc: true
 host_network: true
 host_uts: true
-privileged: true
-#privileged:
-#  - IPC_LOCK
-#  - NET_ADMIN
+#privileged: true
+privileged:
+  - IPC_LOCK
+  - NET_ADMIN
 #devices:
 #  - /dev/net/tun
 #devices:
