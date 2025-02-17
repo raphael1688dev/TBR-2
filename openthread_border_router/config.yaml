@@ -24,8 +24,8 @@ host_uts: true
 privileged:
   - IPC_LOCK
   - NET_ADMIN
-devices:
-  - /dev/net/tunTBR2
+#devices:
+#  - /dev/net/tunTBR2
 #devices:
 #  - /dev/net/tun:/dev/net/tun
 image: homeassistant/{arch}-addon-otbr
