@@ -46,8 +46,10 @@ RUN \
        git \
        nodejs \
        npm \
+#    && git clone --depth 1 -b main \
+#       https://github.com/openthread/ot-br-posix.git \
     && git clone --depth 1 -b main \
-       https://github.com/openthread/ot-br-posix.git \
+       https://github.com/raphael1688dev/ot-br-posix.git \
     && cd ot-br-posix \
     && git fetch origin ${OTBR_VERSION} \
     && git checkout ${OTBR_VERSION} \
